@@ -10,18 +10,12 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.13"/>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
+        <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Application\DTOs\" />
       <Folder Include="Application\Interfaces\" />
-      <Folder Include="Domain\Interfaces\" />
-      <Folder Include="Domain\Services\" />
-      <Folder Include="Infrastructure\DatabaseFactory\" />
-      <Folder Include="Infrastructure\Repositories\" />
       <Folder Include="Infrastructure\Scripts\" />
-      <Folder Include="Presentation\Controllers\" />
-      <Folder Include="Presentation\DTOs\Request\" />
       <Folder Include="Presentation\DTOs\Response\" />
     </ItemGroup>
 
